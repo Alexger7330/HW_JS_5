@@ -111,14 +111,21 @@
 // }
 // piram(count, simbol)
 
-// 8
-let count = +prompt("Введите количество рядов пирамидки");
-let treangle = (count) => {
-    for (let i = 1; i <= count; i++) {                                         //////////////////////////////
-        console.log('*'.repeat(i));
-    }
-}
-treangle(count)
+// // 8
+// let count = +prompt("Введите количество рядов пирамидки");
+// let treangle = (count) => {
+//     for (let i = 1; i <= count; i += 2) {                                        
+//         console.log(` `.repeat(Math.ceil(count - i) / 2) + '*'.repeat(i));
+//     }
+// }
+// treangle(count)
+// console.log('')
+// let treangleReverse = (count) => {
+//     for (let i = count; i >= 1; i -= 2) {
+//         console.log(` `.repeat(Math.ceil(count - i) / 2) + '*'.repeat(i));
+//     }
+// }
+// treangleReverse(count)
 
 
 // // 9
