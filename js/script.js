@@ -196,4 +196,11 @@
 // }
 // ramka(surname, fname, fatherName, group)
 
-// 13
+// // 13
+// let email = prompt("Write your email");
+// let regexp = /[A-Z a-z 0-9]{2,99}@[a-z A-Z 0-9].[a-z]{2,12}/gi
+// if(regexp.test(email) === true){
+//     console.log(`Email is true`)
+// }else{
+//     console.log(`Email is false`)
+// }
